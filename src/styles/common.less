@@ -1,0 +1,47 @@
+@import './normalize';
+
+@light: 300;
+@regular: 400;
+@medium: 500;
+@bold: 700;
+
+@bgGrey: #c7c7cc;
+@cbgGrey: #dcdcde;
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+  font-family: 'Karla', sans-serif;
+  user-select: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 0;
+  border: 0;
+  &:focus {
+    outline: none;
+    border: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
